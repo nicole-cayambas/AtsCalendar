@@ -1,9 +1,12 @@
+import { Fragment } from "react"
+import Week from "./components/Week"
+
 const App = () => {
 
   return (
-    <>
-    Hello World
-    </>
+    <Fragment>
+      <Week />
+    </Fragment>
   )
 }
 
